@@ -1,15 +1,15 @@
 # Draclipse - theme configuration for the Eclipse IDE (or Spring Tool Suite)
 
 ## Version
-> 0.1.0
+> 0.2.0
 
-### Custom color palette
-> **Background blue**: #2080a4 - rgb(32, 128, 164)
-> **Dracula Background**: #282a36 - rgb(40, 42, 54)
-> **Light Gray**: #e1e1e1 - rgb(225, 225, 225)
-> **Light Yellow**: #e1e100 - rgb(225, 225, 0)
+## Custom color palette
+> * **Background blue**: #2080a4 - rgb(32, 128, 164)
+> * **Dracula Background**: #282a36 - rgb(40, 42, 54)
+> * **Light Gray**: #e1e1e1 - rgb(225, 225, 225)
+> * **Light Yellow**: #e1e100 - rgb(225, 225, 0)
 
-### Instructions
+## Instructions
 
 1. Set the "Classic" theme:
 > Window > Preferences > General > Appearance > Theme: **Classic**
