@@ -1,7 +1,7 @@
 # Draclipse - theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **0.3.0**
+> **0.3.1**
 
 ## Custom color palette
 > * **IDE Background blue**: #2080a4 > rgb(32, 128, 164)
@@ -56,7 +56,9 @@
 > 6. Active part foreground: **Dracula Background (40, 42, 54)**
 > 7. Inactive part background begin: **Light Gray (225, 225, 225)**
 > 8. Inactive part background end: **Light Gray (225, 225, 225)**
->9. Inactive part foreground: **Light Yellow (225, 225, 0)**
+> 9. Inactive part foreground: **Light Yellow (225, 225, 0)**
+
+> **Restart the IDE here to see the current changes.**
 
 **7. Edit the "Text Editors" colors:**
 > Preferences > General > Editors > **Text Editors**:
