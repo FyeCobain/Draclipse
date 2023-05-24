@@ -1,7 +1,7 @@
 # Draclipse - theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **0.5.0**
+> **0.6.0**
 
 ## Color palette
 > 1. **IDE Background**: #2080A4 > rgb(32, 128, 164)
@@ -30,7 +30,13 @@
 > 1. Install the [SimpleBackground](https://marketplace.eclipse.org/content/simplebackground) plugin.
 > 2. Preferences > SimpleBackground > **Background image**: [background.png](./background.png) *(must match the scren size)*
 
-**3. Add this **CSS** code to** \eclipse_directory\plugins\org.eclipse.ui.themes_...\css\ **e4_classic.css**:
+**3. Set the console colors:**
+
+> Preferences > Run/Debug > **Console**:
+> 1. Standart Out text color: **Dracula White**
+> 2. Background Color: **IDE Background**
+
+**4. Add this **CSS** code to** \eclipse_or_sts_dir\plugins\org.eclipse.ui.themes_...\css\ **e4_classic.css**:
 
 ```
 .MPart Tree {
@@ -41,17 +47,11 @@
 }
 ````
 
-**4. Edit the console colors:**
-
-> Preferences > Run/Debug > **Console**:
-> 1. Standart Out text color: **Dracula White**
-> 2. Background Color: **IDE Background**
-
-**5. Edit the "Basic" colors:**
+**5. Set the "Basic" colors:**
 > Preferences > General > Appearance > Colors and Fonts > **Basic**:
 > 1. Decoration color: **Yellow (255, 255, 0)**
 
-**6. Edit the "View and Editor Folders" colors:**
+**6. Set the "View and Editor Folders" colors:**
 > Preferences > General > Appearance > Colors and Fonts > **View and Editor Folders**:
 > 1. Active (non-focus) part background begin: **Light Gray**
 > 2. Active (non-focus) part background end: **Light Gray**
@@ -63,27 +63,27 @@
 > 8. Inactive part background end: **Light Gray**
 > 9. Inactive part foreground: **Dracula Yellow**
 
-> **Restart the IDE here to see the current changes.**
+> **_Restart the IDE here to see the current changes._**
 
-**7. Edit the "Text Editors" colors:**
+**7. Set the "Text Editors" colors:**
 > Preferences > General > Editors > **Text Editors**:
 > 1. Line number foreground: **Dracula Dark Blue**
 > 2. Current line highlight: **Dracula Selection**
 > 7. Background color: **Dracula Background**
 
-**8. Edit the "Annotations" colors:**
+**8. Set the "Annotations" colors:**
 > Preferences > General > Editors > Text Editors > **Annotations**:
 > 1. Matching Tags: **IDE Background**
 > 2. Ocurrences: **IDE Background**
 > 3. Write Ocurrences: **IDE Background**
 
-**9. Edit the Java "Editor" colors:**
+**9. Set the Java "Editor" colors:**
 > Preferences > Java > **Editor**:
 > 1. Matching brackets hightlight: **Dracula Cyan**
 > 2. Parameter hints background: **IDE Background**
 > 3. Parameter hints foreground: **Dracula White**
 
-**10. Edit the Java "Syntax Coloring":**
+**10. Set the Java "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Java**:
 > 1. Abstract classes: **Dracula Cyan**
 > 2. Abstract method invocations: **Dracula Green**
@@ -116,14 +116,14 @@
 > 29. Type arguments: **Dracula Orange**
 > 30. Type variables: **Dracula Orange**
 
-**11. Edit the Java Javadoc "Syntax Coloring":**
+**11. Set the Java Javadoc "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Javadoc**:
 > 1. HTML markup: **Dracula Dark Blue**
 > 2. Links: **Dracula Purple (Underline)**
 > 3. Others: **Dracula Orange**
 > 4. Tags: **Dracula Fucsia**
 
-**12. Edit the Java Comments "Syntax Coloring":**
+**12. Set the Java Comments "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Comments**:
 > 1. Multi-line comment: **Dracula Comments**
 > 2. Single-line comment: **Dracula Comments**
