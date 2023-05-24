@@ -1,7 +1,7 @@
 # Draclipse - theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **0.3.1**
+> **0.4.0**
 
 ## Custom color palette
 > * **IDE Background blue**: #2080A4 > rgb(32, 128, 164)
