@@ -1,7 +1,7 @@
-# Draclipse - theme configuration for the Eclipse IDE or Spring Tool Suite
+# Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **1.1.0**
+> **1.2.0**
 
 [![screenshot.png](./screenshot.png)](./screenshot.png)
 
