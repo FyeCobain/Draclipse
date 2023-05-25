@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **1.2.0**
+> **1.2.1**
 
 [![screenshot.png](./screenshot.png)](./screenshot.png)
 
@@ -58,8 +58,8 @@
 
 **6. Set the "View and Editor Folders" colors:**
 > Preferences > General > Appearance > Colors and Fonts > **View and Editor Folders**:
-> 1. Active (non-focus) part background begin: **Light Gray**
-> 2. Active (non-focus) part background end: **Light Gray**
+> 1. Active (non-focus) part background begin: **White**
+> 2. Active (non-focus) part background end: **White**
 > 3. Active (non-focus) part foreground: **Dracula Background**
 > 4. Active part background begin: **White**
 > 5. Active part background end: **White**
