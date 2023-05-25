@@ -1,0 +1,16 @@
+AbstractTextEditor.Color.Background=40,42,54
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.FindScope=255,0,255
+AbstractTextEditor.Color.Foreground=0,255,0
+AbstractTextEditor.Color.Foreground.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground=255,255,0
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+currentLineColor=65,89,103
+eclipse.preferences.version=1
+findIndication=false
+lineNumberColor=88,179,252
+matchingTagIndicationColor=32,128,164
+occurrenceIndicationColor=32,128,164
+printMarginColor=0,255,0
+spellingEnabled=false
+writeOccurrenceIndicationColor=32,128,164

@@ -1,7 +1,9 @@
 # Draclipse - theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **0.7.0**
+> **1.0.0**
+
+[![screenshot.png](./screenshot.png)](./screenshot.png)
 
 ## Color palette
 #### Custom colors
@@ -24,6 +26,8 @@
 
 ## Instructions
 
+### Overall Style
+
 **1. Set the "Classic" theme:**
 > Preferences > General > Appearance > Theme: **Classic**
 
@@ -37,7 +41,7 @@
 > 1. Standart Out text color: **Dracula White**
 > 2. Background Color: **IDE Background**
 
-**4. Add this **CSS** code to** \eclipse_or_sts_dir\plugins\org.eclipse.ui.themes_...\css\ **e4_classic.css**:
+**4. Add this **CSS** code to** _{ide_directory}\\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
 
 ```
 .MPart Tree {
@@ -59,12 +63,15 @@
 > 3. Active (non-focus) part foreground: **Dracula Background**
 > 4. Active part background begin: **White**
 > 5. Active part background end: **White**
-> 6. Active part foreground: **Dracula Background**
+> 6. Active part foreground | Active part text color: **Dracula Background**
 > 7. Inactive part background begin: **Light Gray**
 > 8. Inactive part background end: **Light Gray**
-> 9. Inactive part foreground: **Dracula Yellow**
+> 9. Inactive part foreground | Inactive part text color: **Dracula Yellow**
 
-> **_Restart the IDE here to see the current changes._**
+> **Tip 1**: Restart the IDE here to see the current changes.
+
+> **Tip 2**: You can avoid the following configuration by copying the **.PREFS** files to this directory:
+_{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\_
 
 **7. Set the "Text Editors" colors:**
 > Preferences > General > Editors > **Text Editors**:
@@ -78,13 +85,15 @@
 > 2. Ocurrences: **IDE Background**
 > 3. Write Ocurrences: **IDE Background**
 
-**9. Set the Java "Editor" colors:**
+### Java
+
+**1. Set the Java "Editor" colors:**
 > Preferences > Java > **Editor**:
 > 1. Matching brackets hightlight: **Dracula Cyan**
 > 2. Parameter hints background: **IDE Background**
 > 3. Parameter hints foreground: **Dracula White**
 
-**10. Set the Java "Syntax Coloring":**
+**2. Set the Java "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Java**:
 > 1. Abstract classes: **Dracula Cyan**
 > 2. Abstract method invocations: **Dracula Green**
@@ -117,15 +126,61 @@
 > 29. Type arguments: **Dracula Orange**
 > 30. Type variables: **Dracula Orange**
 
-**11. Set the Java Javadoc "Syntax Coloring":**
+**3. Set the Javadoc "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Javadoc**:
 > 1. HTML markup: **Dracula Dark Blue**
 > 2. Links: **Dracula Purple (Underline)**
 > 3. Others: **Dracula Orange**
 > 4. Tags: **Dracula Fucsia**
 
-**12. Set the Java Comments "Syntax Coloring":**
+**4. Set the Comments "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Comments**:
 > 1. Multi-line comment: **Dracula Comments**
 > 2. Single-line comment: **Dracula Comments**
 > 3. Task Tags: **Dracula White**
+
+### HTML
+
+**Set the HTML "Syntax Coloring":**
+> Preferences > Web > HTML Files > Editor > **Syntax Coloring**:
+> 1. Attribute Equal Signs: **Dracula White**
+> 2. Attribute Names: **Dracula Green**
+> 3. Attribute Values: **Dracula Cyan**
+> 4. Comment Content: **Dracula Comments**
+> 5. Comment Delimiters: **Dracula Comments**
+> 6. Content: **Dracula White**
+> 7. Declaration Delimiters: **Dracula White**
+> 8. DOCTYPE Name: **Dracula Green**
+> 9. DOCTYPE Public Reference: **Dracula Yellow**
+> 9. DOCTYPE System Reference: **Dracula Orange**
+> 10. DOCTYPE SYSTEM/PUBLIC Keyword: **Dracula Green**
+> 11. Entity References: **Dracula Purple**
+> 12. Tag Delimiters: **Dracula White**
+> 13. Tag Names: **Dracula Fucsia**
+
+### CSS
+
+**Set the HTML "Syntax Coloring":**
+> Preferences > Web > CSS Files > Editor > **Syntax Coloring**:
+> 1. At-Rule: **Dracula Fucsia**
+> 2. Attribute Name: **Dracula Green**
+> 3. Attribute Selector Delimiter: **Dracula White**
+> 4. Attribute Selector Operator: **Dracula Purple**
+> 5. Attribute Value: **Dracula Cyan**
+> 6. Class Selector: **Dracula Green**
+> 7. Combinator: **Dracula Green**
+> 8. Comment: **Dracula Comments**
+> 9. Curly Brace: **Dracula White**
+> 10. Default: **Dracula White**
+> 11. Error: **Dracula Orange**
+> 12. Id Selector: **Dracula Green**
+> 13. Media Name: **Dracula White**
+> 14. Property Delimiter: **Dracula White**
+> 15. Property Name: **Dracula Cyan**
+> 16. Property Value: **Dracula Purple**
+> 17. Pseudo-class: **Dracula Green**
+> 18. Quoted String: **Dracula Cyan**
+> 19. Semicolon: **Dracula White**
+> 20. Type Selector: **Dracula Green**
+> 21. Universal Selector: **Dracula Green**
+> 22. URI: **Dracula Green**
