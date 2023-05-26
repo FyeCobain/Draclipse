@@ -1,28 +1,31 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **1.2.1**
+> **2.0.0**
 
 [![screenshot.png](./screenshot.png)](./screenshot.png)
 
 ## Color palette
 #### Custom colors
 > 1. **IDE Background**: #2080A4 > rgb(32, 128, 164)
-> 2. **Light Gray**: #E1E1E1 > rgb(225, 225, 225)
-> 3. **Light Blue**: #4EC5F2 > rgb(78, 197, 242)
-> 4. **Dark Blue**: #0000C8 > rgb(0, 0, 200)
+> 2. **IDE Cyan**: #A6EBF0 > rgb(166, 235, 240)
+> 3. **IDE Panel Blue**: #4EC5F2 > rgb(78, 197, 242)
+> 4. **IDE Light Blue**: #A6D7F0 > rgb(166, 215, 240)
+> 5. **IDE Blue**: #84C6EB > rgb(132, 198, 235)
+> 6. **IDE Dark Blue**: #0000C8 > rgb(0, 0, 200)
+
 #### Dracula-based colors
-> 5. **Dracula Background**: #282A36 > rgb(40, 42, 54)
-> 6. **Dracula Comments**: #6272A4 > rgb(98, 114, 164)
-> 7. **Dracula Selection**: #415967 > rgb(65, 89, 103)
-> 8. **Dracula Cyan**: #8BE9FD > rgb(139, 233, 253)
-> 9. **Dracula Dark Blue**: #58B3FC > rgb(88, 179, 252)
-> 10. **Dracula Fucsia**: #FF79C6 > rgb(255, 121, 198)
-> 11. **Dracula Yellow**: #F1FA8C > rgb(241, 250, 140)
-> 12. **Dracula Green**: #50FA7B > rgb(80, 250, 123)
-> 13. **Dracula Purple**: #BD93F9 > rgb(189, 147, 249)
-> 14. **Dracula Orange**: #FFB86C > rgb(255, 184, 108)
-> 15. **Dracula White**: #F8F8F2 > rgb(248, 248, 242)
+> 7. **Dracula Background**: #282A36 > rgb(40, 42, 54)
+> 8. **Dracula Comments**: #6272A4 > rgb(98, 114, 164)
+> 9. **Dracula Selection**: #415967 > rgb(65, 89, 103)
+> 10. **Dracula Cyan**: #8BE9FD > rgb(139, 233, 253)
+> 11. **Dracula Dark Blue**: #58B3FC > rgb(88, 179, 252)
+> 12. **Dracula Fucsia**: #FF79C6 > rgb(255, 121, 198)
+> 13. **Dracula Yellow**: #F1FA8C > rgb(241, 250, 140)
+> 14. **Dracula Green**: #50FA7B > rgb(80, 250, 123)
+> 15. **Dracula Purple**: #BD93F9 > rgb(189, 147, 249)
+> 16. **Dracula Orange**: #FFB86C > rgb(255, 184, 108)
+> 17. **Dracula White**: #F8F8F2 > rgb(248, 248, 242)
 
 ## Instructions
 
@@ -35,51 +38,59 @@
 > 1. Install the [SimpleBackground](https://marketplace.eclipse.org/content/simplebackground) plugin.
 > 2. Preferences > SimpleBackground > **Background image**: [background.png](./background.png) *(must match the scren size)*
 
-**3. Set the console colors:**
-
-> Preferences > Run/Debug > **Console**:
-> 1. Standart Out text color: **Dracula White**
-> 2. Background Color: **IDE Background**
-
-**4. Add this **CSS** code to** _{ide_directory}\\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
+**3. Add this **CSS** code to** _{ide_directory}\\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
 
 ```
 .MPart Tree {
         font-weight: bold;
         font-size: 10;
-        color: #0000C8; /* Dark Blue */
-        background-color: #4EC5F2; /*Light Blue*/
+        color: #0000C8; /* IDE Dark Blue */
+        background-color: #4EC5F2; /*IDE Panel Blue*/
 }
 ````
 
-**5. Set the "Basic" colors:**
-> Preferences > General > Appearance > Colors and Fonts > **Basic**:
-> 1. Decoration color: **Yellow (255, 255, 0)**
-
-**6. Set the "View and Editor Folders" colors:**
-> Preferences > General > Appearance > Colors and Fonts > **View and Editor Folders**:
-> 1. Active (non-focus) part background begin: **White**
-> 2. Active (non-focus) part background end: **White**
-> 3. Active (non-focus) part foreground: **Dracula Background**
-> 4. Active part background begin: **White**
-> 5. Active part background end: **White**
-> 6. Active part foreground | Active part text color: **Dracula Background**
-> 7. Inactive part background begin: **Light Gray**
-> 8. Inactive part background end: **Light Gray**
-> 9. Inactive part foreground | Inactive part text color: **Dracula Yellow**
-
-> **Tip 1**: Restart the IDE here to see the current changes.
-
-> **Tip 2**: You can avoid the following configuration by copying the **.PREFS** files to this directory:
+### Tip #1
+> You can avoid the following configuration by copying all the **.PREFS files** to this directory:
 _{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\_
 
-**7. Set the "Text Editors" colors:**
+### UI Colors
+
+**1. Set the console colors:**
+
+> Preferences > Run/Debug > **Console**:
+> 1. Standart Out text color: **White**
+> 2. Standart Error text color: **Red**
+> 3. Standart In text color: **Green**
+> 4. Background Color: **IDE Background**
+
+**2. Set the "Basic" colors:**
+> Preferences > General > Appearance > Colors and Fonts > **Basic**:
+> 1. Decoration color: **Yellow**
+
+**3. Set the "View and Editor Folders" colors:**
+> Preferences > General > Appearance > Colors and Fonts > **View and Editor Folders**:
+> 1. Active (non-focus) part background begin: **IDE BLUE**
+> 2. Active (non-focus) part background end: **IDE BLUE**
+> 3. Active (non-focus) part foreground: **Dracula Background**
+> 4. Active part background begin: **IDE LIGHT BLUE**
+> 5. Active part background end: **IDE CYAN**
+> 6. Active part foreground | Active part text color: **Dracula Background**
+> 7. Inactive part background begin: **IDE BLUE**
+> 8. Inactive part background end: **IDE BLUE**
+> 9. Inactive part foreground | Inactive part text color: **Dracula Yellow**
+
+### Tip #2
+> Restart the IDE at this point to see the current changes.
+
+### Text Editor
+
+**1. Set the "Text Editors" colors:**
 > Preferences > General > Editors > **Text Editors**:
 > 1. Line number foreground: **Dracula Dark Blue**
 > 2. Current line highlight: **Dracula Selection**
 > 7. Background color: **Dracula Background**
 
-**8. Set the "Annotations" colors:**
+**2. Set the "Annotations" colors:**
 > Preferences > General > Editors > Text Editors > **Annotations**:
 > 1. Matching Tags: **IDE Background**
 > 2. Ocurrences: **IDE Background**
@@ -138,6 +149,9 @@ _{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\_
 > 1. Multi-line comment: **Dracula Comments**
 > 2. Single-line comment: **Dracula Comments**
 > 3. Task Tags: **Dracula White**
+
+### Tip #3
+> You may need the [Eclipse Web Developer Tools](https://marketplace.eclipse.org/content/eclipse-web-developer-tools/promo) plugin to set the colors of HTML, CSS, and other web files.
 
 ### HTML
 
