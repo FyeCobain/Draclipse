@@ -1,9 +1,9 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.0.1**
+> **2.0.2**
 
-[![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
+![screenshot.png](./screenshot.png)
 
 ## Color palette
 #### Custom colors
