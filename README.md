@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.0.3**
+> **2.1.0**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -31,14 +31,13 @@
 
 ### Overall Style
 
-**1. Set the "Classic" theme:**
-> Preferences > General > Appearance > Theme: **Classic**
+**1. Add the following **CSS** code to:**
 
-**2. Set the background image:**
-> 1. Install the [SimpleBackground](https://marketplace.eclipse.org/content/simplebackground) plugin.
-> 2. Preferences > SimpleBackground > **Background image**: [background.png](./background.png) *(must match the scren size)*
+> For **Eclipse**:
+_{user_directory}\\.p2\\pool\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
 
-**3. Add this **CSS** code to** _{ide_directory}\\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
+> For **Spring Tools Suite**:
+ _{sts_directory}\\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
 
 ```
 .MPart Tree {
@@ -48,6 +47,13 @@
         background-color: #4EC5F2; /*IDE Panel Blue*/
 }
 ````
+
+**2. Set the "Classic" theme:**
+> Preferences > General > Appearance > Theme: **Classic**
+
+**3. Set the background image:**
+> 1. Install the [SimpleBackground](https://marketplace.eclipse.org/content/simplebackground) plugin.
+> 2. Preferences > SimpleBackground > **Background image**: [background.png](./background.png) *(must match the scren size)*
 
 ### Tip #1
 > You can avoid the following configuration by copying all the **.PREFS files** to this directory:
