@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.1.0**
+> **2.1.1**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -33,11 +33,11 @@
 
 **1. Add the following **CSS** code to:**
 
-> For **Eclipse**:
+> **Eclipse**:
 _{user_directory}\\.p2\\pool\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
 
-> For **Spring Tools Suite**:
- _{sts_directory}\\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
+> **Spring Tools Suite**:
+ _{ide_directory}\\plugins\\org.eclipse.ui.themes...\\css\\**e4_classic.css**_:
 
 ```
 .MPart Tree {
@@ -56,6 +56,9 @@ _{user_directory}\\.p2\\pool\plugins\\org.eclipse.ui.themes...\\css\\**e4_classi
 > 2. Preferences > SimpleBackground > **Background image**: [background.png](./background.png) *(must match the scren size)*
 
 ### Tip #1
+> You may need the [Eclipse Web Developer Tools](https://marketplace.eclipse.org/content/eclipse-web-developer-tools/promo) plugin to set the colors of HTML, CSS, and other web files.
+
+### Tip #2
 > You can avoid the following configuration by copying all the **.PREFS files** to this directory:
 _{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\_
 
@@ -85,7 +88,7 @@ _{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\_
 > 8. Inactive part background end: **IDE BLUE**
 > 9. Inactive part foreground | Inactive part text color: **Dracula Yellow**
 
-### Tip #2
+### Tip #3
 > Restart the IDE at this point to see the current changes.
 
 ### Text Editor
@@ -155,9 +158,6 @@ _{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\_
 > 1. Multi-line comment: **Dracula Comments**
 > 2. Single-line comment: **Dracula Comments**
 > 3. Task Tags: **Dracula White**
-
-### Tip #3
-> You may need the [Eclipse Web Developer Tools](https://marketplace.eclipse.org/content/eclipse-web-developer-tools/promo) plugin to set the colors of HTML, CSS, and other web files.
 
 ### HTML
 
