@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.1.3**
+> **2.2.0**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -27,9 +27,7 @@
 > 16. **Dracula Orange**: #FFB86C > rgb(255, 184, 108)
 > 17. **Dracula White**: #F8F8F2 > rgb(248, 248, 242)
 
-## Instalation
-
-### Overall Style
+## Basic configuration
 
 **1. Add the following **CSS** code to:**
 
@@ -59,8 +57,10 @@ _{user_directory}\\.p2\\pool\plugins\\org.eclipse.ui.themes...\\css\\**e4_classi
 > You may need the [Eclipse Web Developer Tools](https://marketplace.eclipse.org/content/eclipse-web-developer-tools/promo) plugin, and close files to see the new colors of HTML, CSS, and other web files.
 
 ### Tip #2
-> You can avoid the following configuration by copying all the **.PREFS files** to this directory:
+> You can **avoid the color setting** by just copying all the **.PREFS files** to this directory:
 _{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\**.settings\\**_
+
+## Color setting
 
 ### UI Colors
 
