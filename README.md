@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.2.2**
+> **2.2.3**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -58,7 +58,7 @@ _{user_directory}\\.p2\\pool\plugins\\org.eclipse.ui.themes...\\css\\**e4_classi
 
 ### Tip #2
 > You can avoid the **color setting** by just copying all the **.PREFS files** to this directory:
->_{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\**.settings\\**_
+> _{ide_workspace}\\.metadata\\.plugins\\org.eclipse.core.runtime\\**.settings\\**_
 
 ## Color setting
 
