@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.2.5**
+> **2.2.6**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -42,7 +42,7 @@
         font-weight: bold;
         font-size: 10;
         color: #0000C8; /* IDE Dark Blue */
-        background-color: #4EC5F2; /*IDE Panel Blue*/
+        background-color: #4EC5F2; /* IDE Panel Blue */
 }
 ````
 
