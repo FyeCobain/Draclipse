@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.3.0**
+> **2.4.0**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -113,7 +113,15 @@
 > 2. Parameter hints background: **IDE Background**
 > 3. Parameter hints foreground: **Dracula White**
 
-**2. Java "Syntax Coloring":**
+**2. Java "Properties Files Editor" colors:**
+> Preferences > Java > **Properties Files Editor**:
+> 1. Arguments: **Dracula Purple**
+> 2. Assignments: **Dracula White**
+> 3. Comments: **Dracula Comments**
+> 4. Keys: **Dracula Green**
+> 5. Keys: **Dracula Yellow**
+
+**3. Java "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Java**:
 > 1. Abstract classes: **Dracula Cyan**
 > 2. Abstract method invocations: **Dracula Green**
@@ -146,14 +154,14 @@
 > 29. Type arguments: **Dracula Orange**
 > 30. Type variables: **Dracula Orange**
 
-**3. Javadoc "Syntax Coloring":**
+**4. Javadoc "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Javadoc**:
 > 1. HTML markup: **Dracula Dark Blue**
 > 2. Links: **Dracula Purple (Underline)**
 > 3. Others: **Dracula Orange**
 > 4. Tags: **Dracula Fucsia**
 
-**4. Comments "Syntax Coloring":**
+**5. Comments "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Comments**:
 > 1. Multi-line comment: **Dracula Comments**
 > 2. Single-line comment: **Dracula Comments**
@@ -204,3 +212,18 @@
 > 20. Type Selector: **Dracula Green**
 > 21. Universal Selector: **Dracula Green**
 > 22. URI: **Dracula Green**
+
+### JSON
+
+**JSON "Syntax Coloring":**
+> Preferences > JSON > JSON Files > Editor > **Syntax Coloring**:
+> 1. Boolean value: **Dracula Fucsia**
+> 2. Colon: **Dracula White**
+> 3. Comma: **Dracula White**
+> 4. Comment: **Dracula Comments**
+> 5. Curly: **Dracula Purple**
+> 6. Normal: **Dracula White**
+> 7. Null value: **Dracula Fucsia**
+> 8. Number value: **Dracula Purple**
+> 9. Object key: **Dracula Cyan**
+> 10. String value: **Dracula Yellow**
