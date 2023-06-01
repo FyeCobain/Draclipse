@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.2.6**
+> **2.3.0**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -64,7 +64,7 @@
 
 ### UI Colors
 
-**1. Set the console colors:**
+**1. Console colors:**
 
 > Preferences > Run/Debug > **Console**:
 > 1. Standart Out text color: **White**
@@ -72,11 +72,11 @@
 > 3. Standart In text color: **Green**
 > 4. Background Color: **IDE Background**
 
-**2. Set the "Basic" colors:**
+**2. "Basic" colors:**
 > Preferences > General > Appearance > Colors and Fonts > **Basic**:
 > 1. Decoration color: **Yellow**
 
-**3. Set the "View and Editor Folders" colors:**
+**3. "View and Editor Folders" colors:**
 > Preferences > General > Appearance > Colors and Fonts > **View and Editor Folders**:
 > 1. Active (non-focus) part background begin: **IDE BLUE**
 > 2. Active (non-focus) part background end: **IDE BLUE**
@@ -93,13 +93,13 @@
 
 ### Text Editor
 
-**1. Set the "Text Editors" colors:**
+**1. "Text Editors" colors:**
 > Preferences > General > Editors > **Text Editors**:
 > 1. Line number foreground: **Dracula Dark Blue**
 > 2. Current line highlight: **Dracula Selection**
 > 7. Background color: **Dracula Background**
 
-**2. Set the "Annotations" colors:**
+**2. "Annotations" colors:**
 > Preferences > General > Editors > Text Editors > **Annotations**:
 > 1. Matching Tags: **IDE Background**
 > 2. Ocurrences: **IDE Background**
@@ -107,13 +107,13 @@
 
 ### Java
 
-**1. Set the Java "Editor" colors:**
+**1. Java "Editor" colors:**
 > Preferences > Java > **Editor**:
 > 1. Matching brackets hightlight: **Dracula Cyan**
 > 2. Parameter hints background: **IDE Background**
 > 3. Parameter hints foreground: **Dracula White**
 
-**2. Set the Java "Syntax Coloring":**
+**2. Java "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Java**:
 > 1. Abstract classes: **Dracula Cyan**
 > 2. Abstract method invocations: **Dracula Green**
@@ -146,14 +146,14 @@
 > 29. Type arguments: **Dracula Orange**
 > 30. Type variables: **Dracula Orange**
 
-**3. Set the Javadoc "Syntax Coloring":**
+**3. Javadoc "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Javadoc**:
 > 1. HTML markup: **Dracula Dark Blue**
 > 2. Links: **Dracula Purple (Underline)**
 > 3. Others: **Dracula Orange**
 > 4. Tags: **Dracula Fucsia**
 
-**4. Set the Comments "Syntax Coloring":**
+**4. Comments "Syntax Coloring":**
 > Preferences > Java > Editor > Syntax Coloring > **Comments**:
 > 1. Multi-line comment: **Dracula Comments**
 > 2. Single-line comment: **Dracula Comments**
@@ -161,7 +161,7 @@
 
 ### HTML
 
-**Set the HTML "Syntax Coloring":**
+**HTML "Syntax Coloring":**
 > Preferences > Web > HTML Files > Editor > **Syntax Coloring**:
 > 1. Attribute Equal Signs: **Dracula White**
 > 2. Attribute Names: **Dracula Green**
@@ -180,7 +180,7 @@
 
 ### CSS
 
-**Set the HTML "Syntax Coloring":**
+**CSS "Syntax Coloring":**
 > Preferences > Web > CSS Files > Editor > **Syntax Coloring**:
 > 1. At-Rule: **Dracula Fucsia**
 > 2. Attribute Name: **Dracula Green**
