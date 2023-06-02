@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.4.0**
+> **2.4.1**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -97,7 +97,8 @@
 > Preferences > General > Editors > **Text Editors**:
 > 1. Line number foreground: **Dracula Dark Blue**
 > 2. Current line highlight: **Dracula Selection**
-> 7. Background color: **Dracula Background**
+> 3. Selection foreground color: **Dracula White**
+> 4. Background color: **Dracula Background**
 
 **2. "Annotations" colors:**
 > Preferences > General > Editors > Text Editors > **Annotations**:
