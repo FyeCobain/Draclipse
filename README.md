@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.4.1**
+> **2.4.2**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -166,7 +166,7 @@
 > Preferences > Java > Editor > Syntax Coloring > **Comments**:
 > 1. Multi-line comment: **Dracula Comments**
 > 2. Single-line comment: **Dracula Comments**
-> 3. Task Tags: **Dracula White**
+> 3. Task Tags: **Yellow**
 
 ### HTML
 
