@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.4.2**
+> **2.5.0**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -13,6 +13,7 @@
 > 4. **IDE Light Blue**: #A6D7F0 > rgb(166, 215, 240)
 > 5. **IDE Blue**: #84C6EB > rgb(132, 198, 235)
 > 6. **IDE Dark Blue**: #0000C8 > rgb(0, 0, 200)
+> 7. **IDE Dark Green**: #408080 > rgb(64, 128, 128)
 
 #### Dracula-based colors
 > 7. **Dracula Background**: #282A36 > rgb(40, 42, 54)
@@ -70,7 +71,7 @@
 > 1. Standart Out text color: **White**
 > 2. Standart Error text color: **Red**
 > 3. Standart In text color: **Green**
-> 4. Background Color: **IDE Background**
+> 4. Background Color: **IDE Dark Green**
 
 **2. "Basic" colors:**
 > Preferences > General > Appearance > Colors and Fonts > **Basic**:
