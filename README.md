@@ -1,7 +1,7 @@
 # Dracula-based theme configuration for the Eclipse IDE or Spring Tool Suite
 
 ## Version
-> **2.5.0**
+> **2.6.0**
 
 [![screenshot.png](./screenshot.png)](https://raw.githubusercontent.com/FyeCobain/Draclipse/main/screenshot.png)
 
@@ -9,24 +9,24 @@
 #### Custom colors
 > 1. **IDE Background**: #2080A4 > rgb(32, 128, 164)
 > 2. **IDE Cyan**: #A6EBF0 > rgb(166, 235, 240)
-> 3. **IDE Panel Blue**: #4EC5F2 > rgb(78, 197, 242)
-> 4. **IDE Light Blue**: #A6D7F0 > rgb(166, 215, 240)
-> 5. **IDE Blue**: #84C6EB > rgb(132, 198, 235)
+> 3. **IDE Blue**: #84C6EB > rgb(132, 198, 235)
+> 4. **IDE Panel Blue**: #4EC5F2 > rgb(78, 197, 242)
+> 5. **IDE Light Blue**: #A6D7F0 > rgb(166, 215, 240)
 > 6. **IDE Dark Blue**: #0000C8 > rgb(0, 0, 200)
 > 7. **IDE Dark Green**: #408080 > rgb(64, 128, 128)
 
 #### Dracula-based colors
-> 7. **Dracula Background**: #282A36 > rgb(40, 42, 54)
-> 8. **Dracula Comments**: #6272A4 > rgb(98, 114, 164)
-> 9. **Dracula Selection**: #415967 > rgb(65, 89, 103)
-> 10. **Dracula Cyan**: #8BE9FD > rgb(139, 233, 253)
-> 11. **Dracula Dark Blue**: #58B3FC > rgb(88, 179, 252)
-> 12. **Dracula Fucsia**: #FF79C6 > rgb(255, 121, 198)
-> 13. **Dracula Yellow**: #F1FA8C > rgb(241, 250, 140)
-> 14. **Dracula Green**: #50FA7B > rgb(80, 250, 123)
-> 15. **Dracula Purple**: #BD93F9 > rgb(189, 147, 249)
-> 16. **Dracula Orange**: #FFB86C > rgb(255, 184, 108)
-> 17. **Dracula White**: #F8F8F2 > rgb(248, 248, 242)
+> 8. **Dracula Background**: #282A36 > rgb(40, 42, 54)
+> 9. **Dracula Comments**: #6272A4 > rgb(98, 114, 164)
+> 10. **Dracula Selection**: #415967 > rgb(65, 89, 103)
+> 11. **Dracula Cyan**: #8BE9FD > rgb(139, 233, 253)
+> 12. **Dracula Dark Blue**: #58B3FC > rgb(88, 179, 252)
+> 13. **Dracula Fucsia**: #FF79C6 > rgb(255, 121, 198)
+> 14. **Dracula Yellow**: #F1FA8C > rgb(241, 250, 140)
+> 15. **Dracula Green**: #50FA7B > rgb(80, 250, 123)
+> 16. **Dracula Purple**: #BD93F9 > rgb(189, 147, 249)
+> 17. **Dracula Orange**: #FFB86C > rgb(255, 184, 108)
+> 18. **Dracula White**: #F8F8F2 > rgb(248, 248, 242)
 
 ## Basic configuration
 
@@ -55,7 +55,7 @@
 > 2. Preferences > SimpleBackground > **Background image**: [background.png](./background.png) *(must match the scren size)*
 
 ### Tip #1
-> You may need the [Eclipse Web Developer Tools](https://marketplace.eclipse.org/content/eclipse-web-developer-tools/promo) plugin, and close files to see the new colors of HTML, CSS, and other web files.
+> You may need the [Eclipse Web Developer Tools](https://marketplace.eclipse.org/content/eclipse-web-developer-tools/promo) plugin, and close current files to see the new colors of HTML, CSS, and other web files.
 
 ### Tip #2
 > You can avoid the **color setting** by just copying all the **.PREFS files** to this directory:
@@ -214,6 +214,34 @@
 > 20. Type Selector: **Dracula Green**
 > 21. Universal Selector: **Dracula Green**
 > 22. URI: **Dracula Green**
+
+### JavaScript
+
+**1. JavaScript "Syntax Coloring":**
+
+> Preferences > Web > Client-side JavaScript  > Syntax Coloring > **JavaScript**:
+> 1. Brackets: **Dracula White**
+> 2. Keyword 'return': **Dracula Fucsia**
+> 3. Keywords excluding 'return': **Dracula Dark Blue**
+> 4. Operators: **Dracula Cyan**
+> 5. Others: **Dracula White**
+> 6. Strings: **Dracula Yellow**
+> 7. Template literal: **Dracula Yellow**
+
+**2. JSDoc "Syntax Coloring":**
+
+> Preferences > Web > Client-side JavaScript  > Syntax Coloring > **JSDoc**:
+> 1. HTML markup: **Dracula Green**
+> 2. Links: **Dracula Cyan**
+> 3. Others: **Dracula Yellow**
+> 4. Tags: **Dracula Fucsia**
+
+**3. Comments "Syntax Coloring":**
+
+> Preferences > Web > Client-side JavaScript  > Syntax Coloring > **Comments**:
+> 1. Multi-line comment: **Dracula Comments**
+> 2. Single-line comment: **Dracula Comments**
+> 3. Task Tags: **Yellow**
 
 ### JSON
 
